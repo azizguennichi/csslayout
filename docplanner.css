@@ -1,0 +1,119 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.menu-bar
+{
+    
+    text-align: right;
+    
+
+}
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: rgb(6, 6, 168);
+}
+.logo-docplanner {
+width: 268px;
+height: 33px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.menu-bar ul li
+{
+    width: 100px;
+    margin: 15px;
+    padding: 15px;
+    
+    
+}
+.bb
+{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.menu-bar ul li a
+{
+    text-decoration: none; 
+    color: rgb(10, 29, 126);
+}
+.active, .menu-bar ul li:hover
+{
+    background: #2fb6b3;
+    border-radius: 3px;
+}
+.sub-menu-1
+{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+    display: block;
+    position: absolute;
+    background: rgb(104, 154, 162);
+    margin-top: 15px;
+    margin-left: 0px;
+   
+}
+.LOGO
+{
+    display: block;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    
+}
+.tt
+{
+    text-align: center;
+    color: #2fb6b3;
+}
+
+.section1{
+    border: 1px solid white;
+display: flex;
+width: 100%;
+height: 260px;
+justify-content: center;
+padding-top: 50px;
+
+
+}
+.box
+{   display: flex;
+    width: 40%;
+    height: 200;
+    border: 1px solid white;
+    box-sizing: border-box;
+    flex-direction: row;
+    line-height: 1.75;
+    margin: 0.8em;
+    padding: 10px;
+    font-family: Roboto,Arial,sans-serif;
+}
+  .service item h2{
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0;
+    color: #fff;
+}
+h2{
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+  
